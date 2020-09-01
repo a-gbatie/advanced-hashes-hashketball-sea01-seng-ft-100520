@@ -125,6 +125,7 @@ def game_hash
     }
   }
 end
+=begin
 def num_points_scored(player_name)
   game_hash.each do |key, value|
     value.each do |k, v|
@@ -148,7 +149,7 @@ def shoe_size(player_name)
     end
   end
 end
-
+=end
 def team_colors(team_name)
   t_name = "Charlotte Hornets"
     if t_name == game_hash[:away][:team_name]
