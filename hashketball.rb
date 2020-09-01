@@ -187,26 +187,6 @@ def player_stats(player_name)
   end
 end
 
-=begin
-def player_stats(player_name)
-  new_hash = {}
-  game_hash.collect do |key, value|
-    value.each do |k, v|
-      next unless k == :players
-
-      game_hash[][k].each do |player|
-        next unless player[:player_name] == player_name
-
-        new_hash = player.delete_if do |x, y|
-          x == :player_name
-        end
-      end
-    end
-  end
-  new_hash
-end
-=end
-
 def big_shoe_rebounds
   largest_shoe_size = 0
   num_rebounds = 0
