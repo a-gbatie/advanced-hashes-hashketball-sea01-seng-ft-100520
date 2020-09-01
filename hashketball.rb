@@ -151,6 +151,7 @@ def shoe_size(player_name)
 end
 =end
 def team_colors(team_name)
+  game_hash.each do |key, value|
   t_name = "Charlotte Hornets"
     if t_name == game_hash[:away][:team_name]
       puts game_hash[:away][:colors]
