@@ -187,6 +187,7 @@ def player_stats(player_name)
   end
 end
 
+=begin
 def player_stats(player_name)
   new_hash = {}
   game_hash.collect do |key, value|
@@ -220,3 +221,4 @@ def big_shoe_rebounds
 
   num_rebounds
 end
+=end
