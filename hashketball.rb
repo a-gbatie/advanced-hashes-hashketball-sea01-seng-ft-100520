@@ -205,6 +205,7 @@ def player_stats(player_name)
   end
   new_hash
 end
+=end
 
 def big_shoe_rebounds
   largest_shoe_size = 0
@@ -221,4 +222,3 @@ def big_shoe_rebounds
 
   num_rebounds
 end
-=end
