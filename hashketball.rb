@@ -152,7 +152,7 @@ end
 =end
 def team_colors(team_name)
   t_name = "Charlotte Hornets"
-    if t_name == game_hash[:team][:team_name]
+    if t_name == game_hash[:team_name]
       puts game_hash[:away][:colors]
     else
       puts game_hash[:home][:colors]
