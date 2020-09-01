@@ -169,7 +169,7 @@ def player_numbers(team_name)
     value.each do |k, v|
       next unless k == :players
 
-      data.each do |v|
+      v.each do |v|
         arr << v[:number]
       end
     end
