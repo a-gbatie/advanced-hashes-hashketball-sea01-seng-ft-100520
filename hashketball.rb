@@ -125,7 +125,7 @@ def game_hash
     }
   }
 end
-=begin
+
 def num_points_scored(player_name)
   game_hash.each do |key, value|
     value.each do |k, v|
@@ -149,18 +149,7 @@ def shoe_size(player_name)
     end
   end
 end
-=end
-def team_colors(team_name)
-  game_hash.each do |key, value|
-    if value[:team_name] == [:away][:team_name]
-      puts game_hash[:away][:colors]
-    else
-      puts game_hash[:home][:colors]
-    end
-    team_name
-end
 
-=begin
 def team_colors(team_name)
   game_hash.each do |key, value|
     return game_hash[key][:colors] if value[:team_name] == team_name
@@ -213,4 +202,3 @@ def big_shoe_rebounds
   end
   num_rebounds
 end
-=end
